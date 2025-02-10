@@ -8,12 +8,12 @@ class Config(object):
     ##API_KEY get it from dev, dont edit if added
     API_KEY = os.environ.get("API_KEY", "No Need🤣🤣🤣🤣 Edited By Aryan Chaudhary ")
     #telegram user session str for 4gb limit
-    SESSION_STRING = os.environ.get("SESSION_STRING", "BQGlVqIAaQCW7onbtdCbesyxExwOHWBZeA-bYLODgc95BpZSiHbwqGA0CC8_9EDtVxhSjDnAlLRGO3wM-oFp4CGEWCIn1Q996Xz4jCAlXPbc4eHRI06yRuuE3K_rd1uuBoL2IrdDaOA3447-dwVkdWRhH2yYrisu0NhFPEX4tXORVGhAw6NJSv5wjZ1-wzsRZZFHpTsCPSr8RybxCOWYiBZUpjNc1JPkNBPgr1KU4XOQbvjU")
+    SESSION_STRING = os.environ.get("SESSION_STRING", "")
     #tg bot token
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7784181142:AAHve9OACjcEJ6ZssPyOznUFISecV5HvrHo")
     #api id and hash get it from my.telegram.org
-    API_ID = int(os.environ.get("API_ID", 467))
-    API_HASH = os.environ.get("API_HASH", "ff6bc6ad204ca7f5773")
+    API_ID = int(os.environ.get("API_ID", 27271700))
+    API_HASH = os.environ.get("API_HASH", "bbbabad37aae65742987d9316beded98")
     PROXY = os.environ.get("PROXY", "")
     DB_URL = os.environ.get("DB_URL", "?retryWrites=true&w=majority&appName=Cluster0")
     OWNER_ID = [int(i) for i in  os.environ.get("OWNER_ID", "7126874550").split(" ")]
